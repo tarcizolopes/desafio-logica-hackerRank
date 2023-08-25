@@ -1,20 +1,19 @@
 function processData(input) {
     //Enter your code here
-    let [senha, senhaDigitada] = input.trim().split('\n')
+    const [senha, senhaDigitada] = input.trim().split('\n')
     let conferindoCaracteres = 0;
     let senhaCorretaVerificada = '';
-    
+
     for (let caractere of senhaDigitada) {
         if (senha[conferindoCaracteres] === caractere) {
             conferindoCaracteres++;
-             senhaCorretaVerificada += caractere;
+                senhaCorretaVerificada += caractere;
             };
     };
-    
-      
-   console.log(senhaCorretaVerificada === senha ? "SIM" : "NAO")
-    
-} 
+
+        
+    console.log(senhaCorretaVerificada === senha ? "SIM" : "NAO")
+}; 
 
 process.stdin.resume();
 process.stdin.setEncoding("ascii");
