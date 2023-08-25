@@ -1,25 +1,22 @@
 function solucao(numeros) {
     // seu codigo aqui
-   
-   let posicao = 0;
-   
-   const somaDosNumeros = numeros.reduce((acumulador, itemAtual) => {
-       return acumulador + itemAtual
-   });
-   
-  
-   for (x = 0; x < somaDosNumeros; x++) {
-       if (posicao < numeros.length){
-           posicao++
-       } else {
-           posicao = 1
-       }
-   }
-   
-  console.log(posicao);
-   
-   
-}
+
+    let posicao = 0;
+
+    const somaDosNumeros = numeros.reduce((acumulador, itemAtual) => {
+        return acumulador + itemAtual
+    });
+
+    for (x = 0; x < somaDosNumeros; x++) {
+        if (posicao < numeros.length){
+            posicao++
+        } else {
+            posicao = 1
+        }
+    }
+
+    console.log(posicao);
+};
 
 function processData(input) {
    const strings = input.split(" ");
