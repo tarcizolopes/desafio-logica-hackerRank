@@ -1,26 +1,26 @@
 function solucao(lista) {
-    //seu codigo aqui
-  
-  let soma = 0;
-  
-  for (i = 0; i < lista.length; i++) {
-      soma += lista[i];
-      
-  };
-  
+  //seu codigo aqui
+
+  // let soma = 0;
+  // for (i = 0; i < lista.length; i++) {
+  //   soma += lista[i];
+  // };
+
+  const soma = lista.reduce((acumulador, elementoAtual) => {
+    return acumulador + elementoAtual;
+  });
+
   const valorEmMedia = (soma / lista.length);
-  
+
   console.log(valorEmMedia);
-  
-  
-}
+};
 
 function processData(input) {
-    const strings = input.split(" ");
+  const strings = input.split(" ");
   const numeros = [];
   for(let i = 0; i < strings.length; i++) {
-        numeros.push(parseInt(strings[i] ,10));
-    }
+      numeros.push(parseInt(strings[i] ,10));
+  }
   solucao(numeros);
 } 
 
