@@ -1,9 +1,9 @@
 function processData(input) {
     //Enter your code here
-    
-    let primeiraLetra = input[0];
-    let restoPalavra = input.slice(1);
-    
+
+    const primeiraLetra = input[0];
+    const restoPalavra = input.slice(1);
+
     if (input === input.toUpperCase()) {
         console.log(input.toLowerCase());
     } else if (primeiraLetra === primeiraLetra.toLowerCase() && restoPalavra === restoPalavra.toUpperCase()) {
@@ -11,9 +11,7 @@ function processData(input) {
     } else {
         console.log(input)
     };
-   
- 
-} 
+}; 
 
 process.stdin.resume();
 process.stdin.setEncoding("ascii");
