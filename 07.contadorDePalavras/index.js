@@ -1,18 +1,16 @@
 function solucao(texto) {
     // Seu codigo aqui
     
-    let formatandoTexto = texto.split(' ');
+    const formatandoTexto = texto.split(' ');
     
-    let filtrandoItens = formatandoTexto.filter((itens) => {
+    const filtrandoItens = formatandoTexto.filter((itens) => {
         return itens.trim() 
     });
     
-    let contador = filtrandoItens.length;
+    const contador = filtrandoItens.length;
     
     console.log(contador);
-    
-
-}
+};
 
 function processData(input) {
 	solucao(input)
