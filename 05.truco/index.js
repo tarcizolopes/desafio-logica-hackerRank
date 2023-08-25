@@ -1,24 +1,21 @@
 function solucao(carta) {
     //seu codigo aqui
     
-   const cartaParaCima = carta;
-    
-       
-    if (cartaParaCima === 'Q') {
+    if (carta === 'Q') {
         console.log('J');
-    } else if (cartaParaCima === 'J') {
+    } else if (carta === 'J') {
         console.log('K');
-    } else if (cartaParaCima === 'K') {
+    } else if (carta === 'K') {
         console.log('A');
-    } else if (cartaParaCima === 'A') {
+    } else if (carta === 'A') {
         console.log('2');
-    } else if (cartaParaCima === '2') {
+    } else if (carta === '2') {
         console.log('3');
-    } else if (cartaParaCima === '3') {
+    } else {
         console.log('Q');
     };
-    
-}
+};
+ 
 
 function processData(input) {
     solucao(input);
