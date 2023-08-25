@@ -1,8 +1,8 @@
 function solucao(min, km) {
     //seu codigo aqui
     
-    let valorInicialPorMinuto = 50 * 20;
-    let valorInicialPorKm = 70 * 10;
+    const valorInicialPorMinuto = 50 * 20;
+    const valorInicialPorKm = 70 * 10;
     
     let valorFinalKm;
     if (km <= 10) {
@@ -20,7 +20,7 @@ function solucao(min, km) {
         valorFinalMin = valorInicialPorMinuto + minExcedente
     };
     
-    let valorFinal = valorFinalKm + valorFinalMin
+    const valorFinal = valorFinalKm + valorFinalMin
     console.log(Math.floor(valorFinal));
 }
 
