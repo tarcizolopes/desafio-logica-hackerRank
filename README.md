@@ -24,9 +24,6 @@
   - métodos de string
   - métodos de array
 
-## Exemplo de código
-
-![code JS](../desafio-logica-hackerRank/myScreenshot/Screenshot.png)
 
 ## Documentação utilizada
 
