@@ -10,6 +10,20 @@
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
+## Objetivos
+-  Resolver problemas usando a linguagem de programação Javascript dentro do ambiente de execução Node.js.
+-  Consolidar o conhecimento de alguns conceitos importantes da lógica de programação em JavaScript como por exemplo:
+  - variáveis;
+  - estruturas de controle;
+    - condicionais
+    - loops
+  - funções
+  - arrays
+  - objetos
+  - operadores
+  - métodos de string
+  - métodos de array
+
 ## Documentação utilizada
 
 [mdn](https://developer.mozilla.org/en-US/)
