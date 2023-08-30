@@ -24,6 +24,8 @@
   - métodos de string
   - métodos de array
 
+## Imagem 
+![HackerRank](https://user-images.githubusercontent.com/120696936/264345404-afbfbaeb-5754-4d4f-8a32-d4cec5e31a5d.png)
 
 ## Documentação utilizada
 
